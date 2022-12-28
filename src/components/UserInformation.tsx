@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react"
 import styled from "styled-components"
 
 const RankingList = styled.div`
@@ -49,7 +49,7 @@ const Score = styled.div`
 `
 
 type BgImageProps = {
-  bgImage?: string;
+  bgImage?: string
 }
 
 type UserData = {
@@ -81,7 +81,7 @@ export const UserInformation = ({ userData }: Props) => {
 
   useEffect(() => {
     fetchUserRank()
-  }, []);
+  }, [])
 
   return (
     <>

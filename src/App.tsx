@@ -1,6 +1,6 @@
 import styled from "styled-components"
-import { UserInformation } from "./components/UserInformation";
-import { userData } from "./utils/userData";
+import { UserInformation } from "./components/UserInformation"
+import { userData } from "./utils/userData"
 
 const ContentWrapper = styled.div`
   display: flex;
@@ -20,4 +20,4 @@ const App = () => {
   )
 }
 
-export default App;
+export default App
